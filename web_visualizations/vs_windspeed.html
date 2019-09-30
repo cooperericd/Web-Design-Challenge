@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Wind Speed</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="vs_maxtemp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="vs_humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="vs_cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="vs_windspeed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+           
+        <div class="row">
+                
+            <div class="col-md-6 col-sm-12">
+                    
+                <div class="box white">
+                        <h3>Wind Speed</h3>
+                        <hr>
+                        <img src="Resources/assets/images/Fig4.png" class="img-fluid" alt="Responsive image">
+                        <p>It doesn't appear that there is a significant relationship between latitude and wind speed. Outside of some outliers at the upper range of latitudes, most cities have wind speeds from 0-20mph.</p>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-6 col-sm-12">
+                <div class="box white">
+                    <h3>Visualizations</h3>
+
+                    <a href="vs_maxtemp.html">
+                    <img class="image" src="Resources/assets/images/Fig1.png">
+                    </a>
+        
+                    <a href="vs_humidity.html">  
+                    <img class="image" src="Resources/assets/images/Fig2.png">
+                    </a>  
+
+                    <a href="vs_cloudiness.html">
+                    <img class="image" src="Resources/assets/images/Fig3.png">
+                    </a>
+
+                    <a href="vs_windspeed.html">
+                    <img class="image" src="Resources/assets/images/Fig4.png">
+                    </a>
+
+                </div>
+            </div>
+        </div>         
+    </div>
+        
+
+
+</body>
+
+</html>
